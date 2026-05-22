@@ -34,7 +34,7 @@ useEffect(() => {
   const handleSubmit = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/signup",
+        "https://gemcv-resume-analyzer-backend.onrender.com/api/auth/signup",
         data
       );
 
@@ -78,7 +78,7 @@ useEffect(() => {
 
     // send to backend
     const res = await axios.post(
-      "http://localhost:5000/api/auth/google",
+      "https://gemcv-resume-analyzer-backend.onrender.com/api/auth/google",
       {
         name: user.displayName,
         email: user.email,
