@@ -21,7 +21,7 @@ function ResumeAnalysis() {
 
       try {
         const res = await axios.post(
-          "http://localhost:5000/api/analyze",
+          "https://gemcv-resume-analyzer-backend.onrender.com/api/analyze",
           formData
         );
 
