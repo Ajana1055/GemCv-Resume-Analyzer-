@@ -42,7 +42,7 @@ const ContactUs = () => {
   //token check
   const tokenCheck = async () => {
     try {
-      await axios.get("http://localhost:5000/api/contact", {
+      await axios.get("https://gemcv-resume-analyzer-backend.onrender.com/api/contact", {
         headers: {
           Authorization: `${localStorage.getItem("token")}`
         }
