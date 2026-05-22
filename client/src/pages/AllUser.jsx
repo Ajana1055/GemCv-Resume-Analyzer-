@@ -14,7 +14,7 @@ const AllUser = () => {
 
    try{
         const res=await axios.get(
-            "http://localhost:5000/api/AllUser",
+            "https://gemcv-resume-analyzer-backend.onrender.com/api/AllUser",
             {
           headers: {
             Authorization: `${token}`
@@ -44,7 +44,7 @@ async function fetchAllUsers() {
 
   try {
     const res = await axios.get(
-      "http://localhost:5000/api/AllUser/all",
+      "https://gemcv-resume-analyzer-backend.onrender.com/api/AllUser/all",
       {
         headers: {
           Authorization: `${token}`
