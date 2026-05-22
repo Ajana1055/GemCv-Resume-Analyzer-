@@ -1,0 +1,39 @@
+client/
+ ├── components/
+ │     ├── Navbar.jsx
+ │     ├── Sidebar.jsx
+ │     ├── ATSScoreCard.jsx
+ │     ├── SkillTags.jsx
+ │     ├── Suggestions.jsx
+ │     ├── InterviewAccordion.jsx
+ │     └── ChatUI.jsx
+ │
+ ├── pages/
+ │     ├── Home.jsx
+ │     ├── Dashboard.jsx
+ │     ├── Upload.jsx
+ │     ├── Results.jsx
+ │     └── Interview.jsx
+
+
+ DESIGN CONCEPT (Modern SaaS Style)
+
+We’ll design it like:
+
+Clean
+
+Minimal
+
+Professional
+
+Startup-level
+
+Color theme suggestion:
+
+Primary: Deep Blue (#2563EB)
+
+Accent: Purple (#7C3AED)
+
+Background: Light gray (#F9FAFB)
+
+Dark mode optional
