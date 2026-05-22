@@ -56,7 +56,7 @@ export default function ResumeBuilder() {
     try {
 
       const res = await fetch(
-        "http://localhost:5000/api/generate-resume",
+        "https://gemcv-resume-analyzer-backend.onrender.com/api/generate-resume",
         {
           method: "POST",
 
