@@ -100,7 +100,7 @@ PORT=5000
 
 ### Frontend
 ```txt
-https://your-frontend-url.vercel.app
+https://gemcv-resume-analyzer.onrender.com
 ```
 
 ### Backend
