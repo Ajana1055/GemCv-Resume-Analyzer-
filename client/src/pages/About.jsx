@@ -8,7 +8,7 @@ function About() {
 
   const tokenCheck = async () => {
     try {
-      await axios.get("http://localhost:5000/api/about", {
+      await axios.get("https://gemcv-resume-analyzer-backend.onrender.com/api/about", {
         headers: {
           Authorization: `${localStorage.getItem("token")}`
         }
